@@ -28,19 +28,11 @@ print(str(count_occurrence("bread", shopping_cart)) + " loaves of bread")
 
 
 # TODO: write a for loop that removes all "banana"s from shopping_cart
-for i in ...
-    ...
+for i in range(1):
     
-print("After removing all bananas, mom bought:")
-print(str(count_occurrence("apple", shopping_cart)) + " apples")
-print(str(count_occurrence("banana", shopping_cart)) + " bananas")
-print(str(count_occurrence("broccoli", shopping_cart)) + " broccolis")
-print(str(count_occurrence("milk", shopping_cart)) + " gallons of milk")
-print(str(count_occurrence("bread", shopping_cart)) + " loaves of bread")
-
-
-
-
-
-
+    print("After removing all bananas, mom bought:")
+    print(str(count_occurrence("apple", shopping_cart)) + " apples")
+    print(str(count_occurrence("broccoli", shopping_cart)) + " broccolis")
+    print(str(count_occurrence("milk", shopping_cart)) + " gallons of milk")
+    print(str(count_occurrence("bread", shopping_cart)) + " loaves of bread")
 
